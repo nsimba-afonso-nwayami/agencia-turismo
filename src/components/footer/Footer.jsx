@@ -1,0 +1,105 @@
+import { Link } from "react-router-dom";
+
+export default function Footer() {
+  return (
+    <footer className="bg-linear-to-r from-blue-900 to-blue-700 text-white">
+      <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+        {/* Sobre a agência */}
+        <div className="flex flex-col gap-4">
+          <h2 className="text-2xl font-bold text-sky-400">Agência Turismo</h2>
+          <p className="text-gray-100">
+            Descubra destinos incríveis e viva experiências únicas com nossos
+            pacotes de turismo personalizados em Angola.
+          </p>
+        </div>
+
+        {/* Links rápidos */}
+        <div className="flex flex-col gap-2">
+          <h3 className="font-semibold text-lg text-gray-100">Links</h3>
+          <Link to="/" className="hover:text-sky-400 transition">
+            Início
+          </Link>
+          <Link to="/sobre" className="hover:text-sky-400 transition">
+            Sobre
+          </Link>
+          <Link to="/destinos" className="hover:text-sky-400 transition">
+            Destinos
+          </Link>
+          <Link to="/pacotes" className="hover:text-sky-400 transition">
+            Pacotes
+          </Link>
+          <Link to="/contato" className="hover:text-sky-400 transition">
+            Contato
+          </Link>
+        </div>
+
+        {/* Contato */}
+        <div className="flex flex-col gap-2">
+          <h3 className="font-semibold text-lg text-gray-100">Contato</h3>
+          <a
+            href="mailto:contato@agenciatourismo.ao"
+            className="hover:text-sky-400 transition"
+          >
+            contato@agenciatourismo.ao
+          </a>
+          <a href="tel:+244923000000" className="hover:text-sky-400 transition">
+            +244 923 000 000
+          </a>
+          <a
+            href="https://wa.me/244923000000"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-teal-500 transition"
+          >
+            <i className="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+
+        {/* Redes sociais */}
+        <div className="flex flex-col gap-4">
+          <h3 className="font-semibold text-lg text-gray-100">Redes Sociais</h3>
+          <div className="flex gap-4 mt-2">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-100 hover:text-sky-400 text-2xl transition transform hover:scale-110"
+            >
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-100 hover:text-sky-400 text-2xl transition transform hover:scale-110"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-100 hover:text-sky-400 text-2xl transition transform hover:scale-110"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-100 hover:text-sky-400 text-2xl transition transform hover:scale-110"
+            >
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className="border-t border-blue-800 text-gray-100 text-center py-8">
+        &copy; {new Date().getFullYear()} Agência Turismo. Todos os direitos
+        reservados.
+      </div>
+    </footer>
+  );
+}
