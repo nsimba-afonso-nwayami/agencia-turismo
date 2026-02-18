@@ -597,8 +597,8 @@ export default function Home() {
             <div>
               <h3 className="font-semibold text-sky-400">Localização</h3>
               <p className="text-gray-200 mt-2">
-                Rua Principal, Luanda <br />
-                Angola
+                Centralidade do Kilamba Quarteirão F, edifício F27 apartamento
+                91, Luanda, Angola
               </p>
             </div>
 
