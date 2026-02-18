@@ -42,11 +42,11 @@ export default function Footer() {
           >
             contato@agenciatourismo.ao
           </a>
-          <a href="tel:+244923000000" className="hover:text-sky-400 transition">
+          <a href="tel:+244972614886" className="hover:text-sky-400 transition">
             +244 923 000 000
           </a>
           <a
-            href="https://wa.me/244923000000"
+            href="https://wa.me/244972614886"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-teal-500 transition"
