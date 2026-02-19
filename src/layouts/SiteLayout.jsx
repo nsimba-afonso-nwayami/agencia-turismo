@@ -6,7 +6,7 @@ import WhatsAppButton from "../components/WhatsAppButton";
 export default function SiteLayout() {
   return (
     <>
-      
+      <Header />
       {/* Outlet renderiza a página específica da rota */}
       <main>
         <Outlet />
