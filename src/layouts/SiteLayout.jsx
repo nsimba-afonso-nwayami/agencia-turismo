@@ -12,7 +12,7 @@ export default function SiteLayout() {
         <Outlet />
       </main>
       {/* Botão WhatsApp fixo do site */}
-      <WhatsAppButton phone="244923000000" size={64} />
+      <WhatsAppButton phone="244972614886" size={64} />
       <Footer />
     </>
   );
