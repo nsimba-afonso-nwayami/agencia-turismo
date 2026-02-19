@@ -83,10 +83,10 @@ export default function Destinos() {
       </section>
 
       {/* Grid de Destinos */}
-      <section className="py-20 bg-gray-100">
+      <section className="py-20 bg-gray-200">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-indigo-950 mb-4">
               Nossos Destinos
             </h2>
             <p className="text-gray-700 text-lg max-w-2xl mx-auto">
@@ -110,7 +110,7 @@ export default function Destinos() {
                 </div>
 
                 <div className="p-6 flex flex-col flex-1">
-                  <h3 className="text-xl font-semibold text-blue-900 mb-2">
+                  <h3 className="text-xl font-semibold text-indigo-950 mb-2">
                     {destino.nome}
                   </h3>
                   <p className="text-gray-700 mb-4 flex-1">
@@ -119,7 +119,7 @@ export default function Destinos() {
 
                   <Link
                     to="/pacotes"
-                    className="mt-auto bg-blue-700 hover:bg-blue-800 text-white px-4 py-2 rounded-lg font-semibold transition transform hover:-translate-y-1 text-center"
+                    className="mt-auto bg-indigo-950 hover:bg-indigo-900 text-white px-4 py-2 rounded-lg font-semibold transition transform hover:-translate-y-1 text-center"
                   >
                     Ver Pacotes
                   </Link>
@@ -132,7 +132,7 @@ export default function Destinos() {
         <div className="text-center mt-12">
           <Link
             to="/contato"
-            className="inline-flex items-center justify-center bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 rounded-lg font-semibold transition"
+            className="inline-flex items-center justify-center bg-indigo-950 hover:bg-indigo-900 text-white px-8 py-3 rounded-lg font-semibold transition"
           >
             Solicitar mais informações
           </Link>

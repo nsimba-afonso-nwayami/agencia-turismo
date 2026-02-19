@@ -5,8 +5,8 @@ export default function NotFound() {
     <>
       <title>Página não encontrada | Agência Turismo</title>
 
-      <section className="h-screen flex flex-col items-center justify-center bg-gray-100 text-center px-6">
-        <h1 className="text-7xl md:text-9xl font-bold text-blue-900 mb-4">
+      <section className="h-screen flex flex-col items-center justify-center bg-gray-200 text-center px-6">
+        <h1 className="text-7xl md:text-9xl font-bold text-indigo-950 mb-4">
           404
         </h1>
 
@@ -14,7 +14,7 @@ export default function NotFound() {
           Ops! Página não encontrada
         </h2>
 
-        <p className="text-gray-700 text-base md:text-lg max-w-lg mb-6">
+        <p className="text-indigo-950 text-base md:text-lg max-w-lg mb-6">
           A página que você está tentando acessar não existe ou foi movida. Não
           se preocupe, você ainda pode explorar nossos pacotes incríveis.
         </p>

@@ -14,16 +14,16 @@ export default function Sobre() {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <h1 className="relative z-10 text-white text-3xl md:text-5xl font-bold">
-          Conheça a <span className="text-sky-400">Agência Turismo</span>
+          Conheça a <span className="text-yellow-400">Agência Turismo</span>
         </h1>
       </section>
 
       {/* História da Agência */}
-      <section className="py-24 px-6 bg-gray-100">
+      <section className="py-24 px-6 bg-gray-200">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
           {/* Texto */}
           <div className="md:w-1/2 flex flex-col gap-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900">
+            <h2 className="text-3xl md:text-4xl font-bold text-indigo-950">
               Nossa História
             </h2>
             <p className="text-gray-700 text-lg">
@@ -54,7 +54,7 @@ export default function Sobre() {
       {/* Missão, Visão e Valores */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-indigo-950 mb-4">
             Missão, Visão e Valores
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
@@ -66,8 +66,8 @@ export default function Sobre() {
 
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-center">
           {/* Missão */}
-          <div className="bg-blue-900 text-white rounded-2xl p-8 shadow-lg flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:bg-blue-800">
-            <i className="fas fa-bullseye text-3xl mb-4 text-sky-400 hover:text-sky-300 transition"></i>
+          <div className="bg-indigo-950 text-white rounded-2xl p-8 shadow-lg flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:bg-indigo-900">
+            <i className="fas fa-bullseye text-3xl mb-4 text-yellow-400 hover:text-yellow-500 transition"></i>
             <h3 className="text-xl font-bold mb-4">Missão</h3>
             <p className="text-gray-200">
               Transformar cada viagem em uma experiência única, com atenção aos
@@ -76,8 +76,8 @@ export default function Sobre() {
           </div>
 
           {/* Visão */}
-          <div className="bg-sky-400 text-blue-900 rounded-2xl p-8 shadow-lg flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:bg-sky-300">
-            <i className="fas fa-eye text-3xl mb-4 text-blue-900 hover:text-blue-800 transition"></i>
+          <div className="bg-yellow-400 text-indigo-950 rounded-2xl p-8 shadow-lg flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:bg-yellow-500">
+            <i className="fas fa-eye text-3xl mb-4 text-indigo-950 hover:text-indigo-900 transition"></i>
             <h3 className="text-xl font-bold mb-4">Visão</h3>
             <p>
               Ser a agência de referência em Angola para turistas que buscam
@@ -86,8 +86,8 @@ export default function Sobre() {
           </div>
 
           {/* Valores */}
-          <div className="bg-blue-700 text-white rounded-2xl p-8 shadow-lg flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:bg-blue-600">
-            <i className="fas fa-heart text-3xl mb-4 text-sky-400 hover:text-sky-300 transition"></i>
+          <div className="bg-indigo-900 text-white rounded-2xl p-8 shadow-lg flex flex-col items-center transform transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:bg-indigo-800">
+            <i className="fas fa-heart text-3xl mb-4 text-yellow-400 hover:text-yellow-500 transition"></i>
             <h3 className="text-xl font-bold mb-4">Valores</h3>
             <p className="text-gray-200">
               Compromisso, respeito, profissionalismo, segurança e paixão por
@@ -98,13 +98,13 @@ export default function Sobre() {
       </section>
 
       {/* CTA final para Destinos / Pacotes */}
-      <section className="bg-sky-400 py-14 px-6 text-center">
+      <section className="bg-yellow-400 py-14 px-6 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-blue-900">
+          <h2 className="text-2xl md:text-3xl font-bold text-indigo-950">
             Pronto para sua próxima viagem?
           </h2>
 
-          <p className="mt-4 text-blue-900 text-lg">
+          <p className="mt-4 text-indigo-950 text-lg">
             Explore nossos destinos e pacotes exclusivos e viva experiências
             inesquecíveis em Angola.
           </p>
@@ -112,13 +112,13 @@ export default function Sobre() {
           <div className="mt-6 flex justify-center gap-4 flex-wrap">
             <Link
               to="/destinos"
-              className="inline-flex items-center justify-center bg-blue-900 text-sky-400 px-8 py-3 rounded-full font-semibold hover:bg-blue-800 transition"
+              className="inline-flex items-center justify-center bg-indigo-950 text-yellow-400 px-8 py-3 rounded-full font-semibold hover:bg-indigo-900 transition"
             >
               Ver Destinos
             </Link>
             <Link
               to="/pacotes"
-              className="inline-flex items-center justify-center bg-blue-900 text-sky-400 px-8 py-3 rounded-full font-semibold hover:bg-blue-800 transition"
+              className="inline-flex items-center justify-center bg-indigo-950 text-yellow-400 px-8 py-3 rounded-full font-semibold hover:bg-indigo-900 transition"
             >
               Ver Pacotes
             </Link>

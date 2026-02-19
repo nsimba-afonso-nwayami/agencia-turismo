@@ -12,73 +12,75 @@ export default function Contato() {
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 text-white px-6">
-          <h1 className="text-4xl md:text-6xl font-bold">Fale Conosco</h1>
-          <p className="mt-4 text-lg md:text-2xl max-w-2xl mx-auto">
+          <h1 className="text-4xl md:text-6xl font-bold text-white">
+            Fale Conosco
+          </h1>
+          <p className="mt-4 text-lg md:text-2xl max-w-2xl mx-auto text-white">
             Tire suas dúvidas, solicite informações ou reserve seu pacote.
           </p>
         </div>
       </section>
 
       {/* Formulário e Informações */}
-      <section className="py-24 px-6 md:px-16 bg-gray-100">
+      <section className="py-24 px-6 md:px-16 bg-gray-200">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
           {/* Formulário */}
           <div className="bg-white rounded-3xl p-8 shadow-lg">
-            <h2 className="text-3xl font-bold text-blue-900 mb-6">
+            <h2 className="text-3xl text-center font-bold text-indigo-950 mb-6">
               Envie sua mensagem
             </h2>
 
             <form className="space-y-4">
               <div>
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-indigo-950 font-semibold mb-2">
                   Nome
                 </label>
                 <input
                   type="text"
                   placeholder="Seu nome"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sky-400"
+                  className="w-full border border-blue-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-700"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-indigo-950 font-semibold mb-2">
                   Email
                 </label>
                 <input
                   type="email"
                   placeholder="seu@email.com"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sky-400"
+                  className="w-full border border-blue-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-700"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-indigo-950 font-semibold mb-2">
                   Telefone
                 </label>
                 <input
                   type="tel"
                   placeholder="+244 923 000 000"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sky-400"
+                  className="w-full border border-blue-700 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-700"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-indigo-950 font-semibold mb-2">
                   Mensagem
                 </label>
                 <textarea
                   placeholder="Escreva sua mensagem"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 h-32 focus:outline-none focus:ring-2 focus:ring-sky-400 resize-none"
+                  className="w-full border border-blue-700 rounded-lg px-4 py-3 h-32 focus:outline-none focus:ring-2 focus:ring-blue-700 resize-none"
                   required
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full cursor-pointer bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-xl font-bold transition"
+                className="w-full cursor-pointer inline-flex items-center justify-center bg-indigo-950 hover:bg-indigo-900 text-white px-8 py-3 rounded-xl font-bold transition"
               >
                 Enviar Mensagem
               </button>
@@ -86,32 +88,34 @@ export default function Contato() {
           </div>
 
           {/* Informações da Agência */}
-          <div className="bg-blue-900 rounded-3xl p-8 shadow-lg text-white space-y-6">
-            <h2 className="text-3xl font-bold mb-6">Informações de Contato</h2>
+          <div className="bg-indigo-950 rounded-3xl p-8 shadow-lg text-white space-y-6">
+            <h2 className="text-3xl font-bold mb-6 text-white">
+              Informações de Contato
+            </h2>
 
             <div>
-              <h3 className="font-semibold text-sky-400">Endereço</h3>
-              <p className="mt-2">
+              <h3 className="font-semibold text-yellow-400">Endereço</h3>
+              <p className="mt-2 text-white">
                 Rua Principal, Luanda <br />
                 Angola
               </p>
             </div>
 
             <div>
-              <h3 className="font-semibold text-sky-400">Telefone</h3>
-              <p className="mt-2">+244 923 000 000</p>
+              <h3 className="font-semibold text-yellow-400">Telefone</h3>
+              <p className="mt-2 text-white">+244 923 000 000</p>
             </div>
 
             <div>
-              <h3 className="font-semibold text-sky-400">Email</h3>
-              <p className="mt-2">contato@agenciatourismo.com</p>
+              <h3 className="font-semibold text-yellow-400">Email</h3>
+              <p className="mt-2 text-white">contato@agenciatourismo.com</p>
             </div>
 
             <div>
-              <h3 className="font-semibold text-sky-400">
+              <h3 className="font-semibold text-yellow-400">
                 Horário de Funcionamento
               </h3>
-              <p className="mt-2">
+              <p className="mt-2 text-white">
                 Segunda a Sexta: 09h às 18h <br />
                 Sábado e Domingo: Sob agendamento
               </p>
@@ -122,7 +126,7 @@ export default function Contato() {
                 href="https://wa.me/244923000000"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 bg-sky-400 text-blue-900 px-8 py-4 rounded-full font-semibold shadow-lg hover:bg-sky-500 transition"
+                className="inline-flex items-center gap-3 bg-yellow-400 text-indigo-950 px-8 py-4 rounded-full font-semibold shadow-lg hover:bg-yellow-500 transition"
               >
                 <i className="fa-brands fa-whatsapp text-xl"></i>
                 Falar pelo WhatsApp
