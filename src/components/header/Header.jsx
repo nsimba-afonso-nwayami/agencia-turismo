@@ -1,8 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Fecha o menu ao rolar a página, somente em telas mobile
+  useEffect(() => {
+    const handleScroll = () => {
+      if (menuOpen && window.innerWidth < 768) {
+        setMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [menuOpen]);
 
   return (
     <header className="bg-indigo-950 text-white fixed top-0 left-0 w-full z-50 shadow-md">
