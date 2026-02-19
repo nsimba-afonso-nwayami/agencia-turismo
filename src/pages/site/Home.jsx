@@ -540,7 +540,7 @@ export default function Home() {
             </p>
             <div className="mt-8">
               <a
-                href="https://wa.me/244923000000"
+                href="https://wa.me/244972614886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-yellow-400 text-indigo-950 px-8 py-4 rounded-full font-semibold shadow-lg hover:bg-yellow-500 transition"
@@ -557,7 +557,7 @@ export default function Home() {
                 Horário de funcionamento
               </h3>
               <p className="text-gray-200 mt-2">
-                Segunda a Sexta: 09h às 18h <br />
+                Segunda a Sexta: 08h às 17h <br />
                 Sábado e Domingo: Sob agendamento
               </p>
             </div>
@@ -571,8 +571,8 @@ export default function Home() {
             <div>
               <h3 className="font-semibold text-yellow-400">Contato</h3>
               <p className="text-gray-200 mt-2">
-                +244 923 000 000 <br />
-                contato@agenciatourismo.com
+                +244 972 614 886 <br />
+                geral@nwayami.com
               </p>
             </div>
           </div>
@@ -587,7 +587,7 @@ export default function Home() {
           </h2>
           <div className="mt-6">
             <a
-              href="https://wa.me/244923000000"
+              href="https://wa.me/244972614886"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-indigo-950 text-yellow-400 px-8 py-3 rounded-full font-semibold hover:bg-indigo-900 transition"

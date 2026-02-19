@@ -40,10 +40,10 @@ export default function Footer() {
           <h3 className="font-semibold text-lg text-gray-200">Contato</h3>
 
           <a
-            href="mailto:contato@agenciatourismo.ao"
+            href="mailto:geral@nwayami.com"
             className="hover:text-yellow-400 transition"
           >
-            contato@agenciatourismo.ao
+            geral@nwayami.com
           </a>
 
           <a

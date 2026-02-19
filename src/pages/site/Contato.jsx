@@ -13,7 +13,7 @@ export default function Contato() {
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 text-white px-6">
           <h1 className="text-4xl md:text-6xl font-bold text-white">
-            Fale Conosco
+            Fale Connosco
           </h1>
           <p className="mt-4 text-lg md:text-2xl max-w-2xl mx-auto text-white">
             Tire suas dúvidas, solicite informações ou reserve seu pacote.
@@ -96,19 +96,19 @@ export default function Contato() {
             <div>
               <h3 className="font-semibold text-yellow-400">Endereço</h3>
               <p className="mt-2 text-white">
-                Rua Principal, Luanda <br />
-                Angola
+                Centralidade do Kilamba Quarteirão F, edifício F27 apartamento
+                91, Luanda, Angola
               </p>
             </div>
 
             <div>
               <h3 className="font-semibold text-yellow-400">Telefone</h3>
-              <p className="mt-2 text-white">+244 923 000 000</p>
+              <p className="mt-2 text-white">+244 972 614 886</p>
             </div>
 
             <div>
               <h3 className="font-semibold text-yellow-400">Email</h3>
-              <p className="mt-2 text-white">contato@agenciatourismo.com</p>
+              <p className="mt-2 text-white">geral@nwayami.com</p>
             </div>
 
             <div>
@@ -116,14 +116,14 @@ export default function Contato() {
                 Horário de Funcionamento
               </h3>
               <p className="mt-2 text-white">
-                Segunda a Sexta: 09h às 18h <br />
+                Segunda a Sexta: 08h às 17h <br />
                 Sábado e Domingo: Sob agendamento
               </p>
             </div>
 
             <div className="mt-6">
               <a
-                href="https://wa.me/244923000000"
+                href="https://wa.me/244972614886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-yellow-400 text-indigo-950 px-8 py-4 rounded-full font-semibold shadow-lg hover:bg-yellow-500 transition"
