@@ -35,16 +35,16 @@ export default function Header() {
         {/* Menu */}
         <nav
           className={`
-            absolute md:static
-            top-full left-0 w-full md:w-auto
-            bg-indigo-950 md:bg-transparent
-            flex flex-col md:flex-row
-            gap-4 md:gap-6
-            px-6 md:px-0
-            transition-all duration-300
-            ${menuOpen ? "py-6 opacity-100" : "py-0 opacity-0 md:opacity-100 md:py-0"}
-            pointer-events-${menuOpen ? "auto" : "none"} md:pointer-events-auto
-          `}
+    absolute md:static
+    top-full left-0 w-full md:w-auto
+    bg-indigo-950 md:bg-transparent
+    flex flex-col md:flex-row
+    gap-4 md:gap-6
+    px-6 md:px-0
+    transition-all duration-300
+    md:opacity-100 md:py-0 md:pointer-events-auto
+    ${menuOpen ? "py-6 opacity-100 pointer-events-auto" : "py-0 opacity-0 pointer-events-none"}
+  `}
         >
           <Link
             to="/"
