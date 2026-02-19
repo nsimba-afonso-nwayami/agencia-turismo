@@ -30,7 +30,8 @@ export default function Header() {
             gap-4 md:gap-6
             px-6 md:px-0
             transition-all duration-300
-            ${menuOpen ? "py-6 opacity-100 pointer-events-auto" : "py-0 opacity-0 pointer-events-none md:pointer-events-auto"}
+            ${menuOpen ? "py-6 opacity-100" : "py-0 opacity-0 md:opacity-100 md:py-0"}
+            pointer-events-${menuOpen ? "auto" : "none"} md:pointer-events-auto
           `}
         >
           <Link
